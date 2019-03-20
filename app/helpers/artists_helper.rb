@@ -9,4 +9,5 @@ module ArtistsHelper
     else
       hidden_field_tag "song[author_id]", song.artist_id
     end
+  end
 end
